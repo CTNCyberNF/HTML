@@ -62,7 +62,7 @@ a {
   border-radius: 4px;
 }
 
-.btn:hover {
+.btn:hover {  /*tombol aksi kursor mengarah ke tombol tidak di tekan */
   opacity: 1;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 
 .header-right a {
-  line-height: 65px;
+  line-height: 65px;  /* membuat ketengah */
   padding: 0 25px;
   color: white;
   display: block;
@@ -167,7 +167,7 @@ header {
   box-shadow: 0 7px #1a7940;
 }
 
-.message:active {
+.message:active { /* tombol aksi tekan cursor */
   position: relative;
   top: 7px;
   box-shadow: none;
